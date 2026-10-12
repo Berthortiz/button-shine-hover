@@ -2,11 +2,13 @@
   box-sizing: border-box;
 }
 
+
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
+  color: white;
+
+  background-color: rgba(0, 0, 0, 0.956);
 }
 
 nav {
@@ -18,6 +20,21 @@ nav {
   gap: 0.5rem;
   border-bottom: solid 1px #aaa;
   background-color: #eee;
+}
+
+
+.btn-shine {
+  font-size: larger;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff ;
+  padding: 5px 10px;
+  border-radius: 7px;
+  /* line-height: 0; */
+
+}
+.btn-shine:hover {
+  background-color: #555;
 }
 
 nav a {
